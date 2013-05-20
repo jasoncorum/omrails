@@ -1,7 +1,7 @@
 $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-$btnPrimaryBackground: green;
+$btnPrimaryBackground: blue;
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 
@@ -23,6 +23,6 @@ body {
 	margin-top: 50px;
 	color: $grayLight;
 	a {
-		color: gray;
+		color: $gray;
 	}
 }
