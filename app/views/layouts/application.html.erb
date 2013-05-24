@@ -14,8 +14,12 @@
 		 		<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
 		 	<% end %>
 			<%= yield %>
-		</div>
-			<%= render 'layouts/footer' %>
+			
 
-	</body>
+	<div class="footer">
+	<small>
+	<%= link_to"One Month Rails" , "http://onemonthrails.com" %> by <%= link_to"Jason Corum" , "http://jasoncorum.com" %>
+	</small>
+</div>
+</body>
 </html>
